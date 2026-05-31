@@ -1,0 +1,15 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# Secrets – never commit credentials
+.env
+secrets.json
+
+# Newman HTML reports (generated artifacts)
+postman_artifacts/reports/
