@@ -101,6 +101,6 @@ exposes endpoints for authentication and full CRUD management of bookings.
 |-------------|----------|
 | This Test Plan | `documentation/Test_Plan.md` |
 | Test Cases | `documentation/Test_Cases.md` |
-| Postman Collection | `postman_artifacts/Restful_Booker.postman_collection.json` |
+| Postman Collection | `postman_artifacts/RestfulBooker-Manual.postman_collection.json` |
 | Postman Environment | `postman_artifacts/Restful_Booker_DEV.postman_environment.json` |
 
