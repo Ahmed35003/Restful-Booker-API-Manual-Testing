@@ -17,7 +17,7 @@ A structured, Postman-based manual API testing suite for the **[Restful-Booker](
 - [Known API Behaviors & Quirks](#known-api-behaviors--quirks)
 - [Test Environment Details](#test-environment-details)
 - [Deliverables](#deliverables)
-
+- [Automation Phase](#automation-phase)
 
 ---
 
@@ -211,5 +211,17 @@ For a complete risk register with likelihood and impact assessments, refer to Se
 | Postman Environment | `postman_artifacts/Restful_Booker_DEV.postman_environment.json` | Configured with base URL, credentials, and runtime variables |
 
 ---
+
+## 🚀 Automation Phase
+
+This manual testing phase served as the design blueprint for a comprehensive, production-ready **API Test Automation Framework** that handles regression scale.
+
+- ⚙️ **Full Automation:** Scaled from the 8-core manual cases to all **24 test scenarios** (including Part B data-driven negatives, security, and schema boundary tests).
+- 🏗️ **Architecture:** Built on the robust **API-POM (Page Object Model) pattern** using Java and REST Assured.
+- 📊 **Advanced Reporting:** Integrated with **Allure Reports** to auto-generate interactive HTML dashboards with request/response body logging.
+
+Every Test Case ID (`TC-01` to `TC-24`) documented in this manual repository directly maps to a test method in the automated regression suite.
+
+**[📂 View Automation Framework Repository Here](https://github.com/Ahmed35003/Restful-booker-Automation-APi-Testing)**
 
 
